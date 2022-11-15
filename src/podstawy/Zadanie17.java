@@ -1,3 +1,5 @@
+package podstawy;
+
 public class Zadanie17 {
     public static void main(String[] args) {
         int iloscAkcji = 600;

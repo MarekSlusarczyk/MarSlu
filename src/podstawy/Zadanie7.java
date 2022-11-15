@@ -1,3 +1,5 @@
+package podstawy;
+
 public class Zadanie7 {
     public static void main(String[] args) {
         double wartosc = 4.6;

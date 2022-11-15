@@ -1,3 +1,5 @@
+package podstawy;
+
 public class Zadanie2 {
     public static void main(String[] args) {
         // 04.11.2022

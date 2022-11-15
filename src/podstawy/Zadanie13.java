@@ -1,3 +1,5 @@
+package podstawy;
+
 import java.util.Scanner;
 public class Zadanie13 {
     public static void main(String[] args) {

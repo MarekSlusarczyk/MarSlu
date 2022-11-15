@@ -1,3 +1,5 @@
+package podstawy;
+
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
 import java.math.BigDecimal;

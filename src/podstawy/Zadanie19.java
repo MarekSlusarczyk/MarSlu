@@ -1,4 +1,4 @@
-package printFormat;
+package podstawy;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 public class Zadanie19 {
