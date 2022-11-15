@@ -1,5 +1,7 @@
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Zadanie23 {
     public static void main(String[] args) {

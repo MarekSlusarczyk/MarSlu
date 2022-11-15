@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Scanner;
 
 public class Zadanie21 {
@@ -21,7 +23,11 @@ public class Zadanie21 {
         double wynikPotegowania = Math.pow(liczbaPotegowana, wykladnik);
         double kwotaCalkowita = iloscPieniedzy * wynikPotegowania;
 
-        System.out.println("Kwota po lokacie " + kwotaCalkowita);
+
+        BigDecimal kwotaZaokraglenia = new BigDecimal(kwotaCalkowita).setScale(5, RoundingMode.HALF_UP);
+        double kwotaZaokaglona = kwotaZaokraglenia.doubleValue();
+
+        System.out.println("Kwota po lokacie " + kwotaZaokaglona);
 
     }
 }
