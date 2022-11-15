@@ -14,8 +14,11 @@ public class Zadanie22 {
         double kwotaSprzedazyAkcji = liczbaSprzedanychAkcji * cenaSprzedazy;
         double kwotaProwizjiPrzySprzedazy = kwotaSprzedazyAkcji * prowizja;
 
+        double zysk = kwotaSprzedazyAkcji - kwotaZakupuAkcji;
+
         System.out.println("Kwota zapłacona za akcje: " + kwotaZakupuAkcji + "\nKwota zapłacona brokerowi: " +
                 kwotaProwizjiPrzyZakupie + "\n\nKwota otrzymana przy sprzedaży: " + kwotaSprzedazyAkcji +
-                "\nKwota zapłacona brokerowi przy sprzedaży: " + kwotaProwizjiPrzySprzedazy);
+                "\nKwota zapłacona brokerowi przy sprzedaży: " + kwotaProwizjiPrzySprzedazy +
+                "\nZysk: " + zysk);
     }
 }
