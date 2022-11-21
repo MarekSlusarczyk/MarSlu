@@ -50,6 +50,7 @@ public class Zadanie18 {
         } else if (wegetarianskie && weganskie && !bezglutenowe) {
             System.out.println("Możecie się wybrać do:\nKawiarnia na rogu" +
                     "\nKuchnia u Szefa");
+
         }
     }
 }
